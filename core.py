@@ -38,7 +38,7 @@ def main():
 	syntax = load_syntax(syntax_path)
 
 	ret = core(data,syntax)
-	print(ret)
+	print(json.dumps(ret))
 
 if __name__ == "__main__":
 	main()
